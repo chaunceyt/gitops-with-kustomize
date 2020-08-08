@@ -5,6 +5,7 @@ resources:
 - cluster
 - flux/common
 - helm-operators
+- ingress
 # Patch all helm release with to `spec.helmVersion: v3`
 patches:
 - path: helm-version-v3.yaml
